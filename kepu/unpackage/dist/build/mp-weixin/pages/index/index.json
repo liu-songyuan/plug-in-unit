@@ -1,0 +1,11 @@
+{
+  "usingComponents": {
+    "family-life": "/components/FamilyLife/FamilyLife",
+    "technology": "/components/Technology/Technology",
+    "beauty": "/components/Beauty/Beauty",
+    "animal": "/components/Animal/Animal",
+    "game": "/components/Game/Game",
+    "life": "/components/Life/Life",
+    "interset": "/components/Interset/Interset"
+  }
+}

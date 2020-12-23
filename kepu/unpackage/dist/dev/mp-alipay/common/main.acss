@@ -1,0 +1,266 @@
+
+page {
+	font-size: 30rpx;
+}
+/*每个页面公共css */
+@font-face {font-family: "iconfont";
+	  src: url('//at.alicdn.com/t/font_2275849_ufut4qhgc6.eot?t=1608176787796'); /* IE9 */
+	  src: url('//at.alicdn.com/t/font_2275849_ufut4qhgc6.eot?t=1608176787796#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAALkAAsAAAAABowAAAKXAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCCcAqBFIEcATYCJAMICwYABCAFhG0HMRvDBcguMYVrB2LMOk2SFFfsNUK+XQf8w0U8PL8/6tz33oBYqJFRTlDa0FwnzcZ1gur0zdvB7Az/o7U2949LXcjvEfWkcjJ74nuLZ0J0iZRqkkRDgQaQAa7XCh1JzPphEjNXQ0iAGmuKG0DIPnHv9E+gDzLf+b8c96KxJk3qAowDKdA9MIqsGBOWhrELXMJjAo1GRQjbO/oGIUthrQrEOV0VISsXUxRWrBdqaw4WcVW6+jSThtnw+/GVkUVSk1lte862K9D0Ic8uy1eqmfQJcRDQ8RpkLAUKcaA2t0tYMC6sMZdmEuyrOfjQXFW+V+zVJdhPZzU2g2GovieNq71VZQKF6SwDVo/6R8iDncJKzquX5ip7/lzae5bb8uCV8OqVO5dFQePda+VHt+5VNl3crMjb98tCWLX37b9vxuLVy7O4vH3v+LX6bwWuTe7I2PR+8InrGpKwNLul8F3Pdc5XefA78LsIwGaAqjyXAwHBzPbox1j/LSu3gPc2jFQV/QKg/gz+4E9peg4VXWd5UlE1taVkmfAddDRqRAUOdfoea++5rVKo13NzgTojKbJ602Rhl6JGk+WoVW8TGi3RebxJFyYsSgMWWwUI7S6RtHqKrN09Wdgv1Oj1h1rtEUajQ9F1YZP5oedsYyhyVIi0RHTZdajj4zlRcz+qc5bIsrqQH0YW6EmSjCWKxU50kM2xJZhXU5xTQplrkw7wHFqWSzzmGijzmMa5VxOP07o3xWTXhhzbMEjEIQUhWULoZC4H9cdzOaXP90OqORYRaxmoqQ5DTECfnUiKSfQgO81Or4F7eSUwT5XCcRRBMS4b0QHmIYvFRXj18wxIxsVoIzKeGnF7FO1rjq1vtb/uBDSyHCnstqzutC46y44LAAA=') format('woff2'),
+	  url('//at.alicdn.com/t/font_2275849_ufut4qhgc6.woff?t=1608176787796') format('woff'),
+	  url('//at.alicdn.com/t/font_2275849_ufut4qhgc6.ttf?t=1608176787796') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+	  url('//at.alicdn.com/t/font_2275849_ufut4qhgc6.svg?t=1608176787796#iconfont') format('svg'); /* iOS 4.1- */
+}
+.iconfont {
+	  font-family: "iconfont" !important;
+	  font-size: 16px;
+	  font-style: normal;
+	  -webkit-font-smoothing: antialiased;
+	  -moz-osx-font-smoothing: grayscale;
+}
+.icon-dianzan:before {
+	  content: "\e60c";
+}
+.iconfont {
+	font-family: 'iconfont' !important;
+	font-size: 16px;
+	font-style: normal;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.icon-dianzan:before {
+	content: '\e60c';
+}
+
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.uni-popup.data-v-7da806a4 {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 99999999999;
+}
+.uni-popup__mask.data-v-7da806a4 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  opacity: 0;
+}
+.mask-ani.data-v-7da806a4 {
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+}
+.uni-top-mask.data-v-7da806a4 {
+  opacity: 1;
+}
+.uni-bottom-mask.data-v-7da806a4 {
+  opacity: 1;
+}
+.uni-center-mask.data-v-7da806a4 {
+  opacity: 1;
+}
+.uni-popup__wrapper.data-v-7da806a4 {
+  display: block;
+  position: absolute;
+}
+.top.data-v-7da806a4 {
+  top: 0;
+  left: 0;
+  right: 0;
+  -webkit-transform: translateY(-500px);
+          transform: translateY(-500px);
+}
+.bottom.data-v-7da806a4 {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  -webkit-transform: translateY(500px);
+          transform: translateY(500px);
+}
+.center.data-v-7da806a4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  opacity: 0;
+}
+.uni-popup__wrapper-box.data-v-7da806a4 {
+  display: block;
+  position: relative;
+}
+.content-ani.data-v-7da806a4 {
+  -webkit-transition-property: opacity, -webkit-transform;
+  transition-property: opacity, -webkit-transform;
+  transition-property: transform, opacity;
+  transition-property: transform, opacity, -webkit-transform;
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+}
+.uni-top-content.data-v-7da806a4 {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+.uni-bottom-content.data-v-7da806a4 {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+.uni-center-content.data-v-7da806a4 {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  opacity: 1;
+}
+
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+/* 底部分享 */
+.sharebtn .uni-share {
+  width: 690rpx;
+  margin: 30rpx;
+  -webkit-border-radius: 30rpx;
+          border-radius: 30rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  background-color: #fff;
+}
+.sharebtn .uni-share .uni-share-content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+          flex-wrap: nowrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  overflow-x: scroll;
+  padding: 15px 50rpx;
+}
+.sharebtn .uni-share .uni-share-content .uni-share-content-box {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  margin-right: 60rpx;
+}
+.sharebtn .uni-share .uni-share-content .uni-share-content-box:nth-last-child(1) {
+  margin-right: 0;
+}
+.sharebtn .uni-share .uni-share-content .uni-share-content-box .uni-share-content-image {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  width: 90rpx;
+  height: 90rpx;
+  overflow: hidden;
+  -webkit-border-radius: 10rpx;
+          border-radius: 10rpx;
+}
+.sharebtn .uni-share .uni-share-content .uni-share-content-box .uni-share-content-image .content-image {
+  width: 90rpx;
+  height: 90rpx;
+}
+.sharebtn .uni-share .uni-share-content .uni-share-content-box:nth-last-child(1) .uni-share-content-image .content-image {
+  width: 50rpx !important;
+  height: 50rpx !important;
+}
+.sharebtn .uni-share .uni-share-content .uni-share-content-box .uni-share-content-text {
+  font-size: 26rpx;
+  color: #333;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+

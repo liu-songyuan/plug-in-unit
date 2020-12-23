@@ -1,0 +1,8 @@
+{
+  "defaultTitle": "用户反馈",
+  "pullRefresh": false,
+  "titleBarColor": "#0984e3",
+  "usingComponents": {
+    "uni-icons": "/components/uni-icons/uni-icons"
+  }
+}

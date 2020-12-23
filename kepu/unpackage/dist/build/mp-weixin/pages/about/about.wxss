@@ -1,0 +1,1 @@
+page{background-color:#f1f1f1}.Box{margin:40rpx auto}.Box .content{text-align:center;font-size:40rpx}.Box .image{margin-top:12%;text-align:center}.Box .image image{width:200rpx}.Box .rank{margin-top:80rpx;font-size:30rpx;text-align:center;color:#7f8fa6}

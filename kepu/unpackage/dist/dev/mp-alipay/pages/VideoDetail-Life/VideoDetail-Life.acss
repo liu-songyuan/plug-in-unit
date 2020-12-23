@@ -1,0 +1,208 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.v1.data-v-1cf249b4 {
+  position: relative;
+  position: relative;
+}
+.v1 .l.data-v-1cf249b4 {
+  width: 95%;
+  border: 1px solid #DCDFE6;
+  background-color: #DCDFE6;
+  margin-top: 30rpx;
+  margin-left: 15rpx;
+  opacity: 0.5;
+}
+.v1 .cnxh.data-v-1cf249b4 {
+  position: relative;
+  margin-top: 30rpx;
+}
+.v1 .cnxh .lii.data-v-1cf249b4 {
+  position: absolute;
+  top: -25rpx;
+  width: 100%;
+  height: 10rpx;
+  border: 1px solid #DCDFE6;
+  background-color: #DCDFE6;
+  opacity: 0.5;
+}
+.v1 .cnxh .cnxhfx.data-v-1cf249b4 {
+  position: absolute;
+  right: 50rpx;
+  bottom: 0rpx;
+}
+.v1 .cnxh .cnxhfx text.data-v-1cf249b4 {
+  margin-left: 0rpx;
+}
+.v1 .cnxh .bejs.data-v-1cf249b4 {
+  width: 120rpx;
+  height: 18rpx;
+  background-color: #0000FF;
+  margin-left: 30rpx;
+  margin-top: -18rpx;
+  opacity: 0.5;
+}
+.v1 .cnxh .cnxht1.data-v-1cf249b4 {
+  font-size: 30rpx;
+}
+.v1 .cnxh image.data-v-1cf249b4 {
+  margin-top: 30rpx;
+  width: 95%;
+  margin-left: 19rpx;
+  -webkit-border-radius: 10rpx;
+          border-radius: 10rpx;
+}
+.v1 .cnxhe.data-v-1cf249b4 {
+  width: 100%;
+  position: relative;
+}
+.v1 .cnxhe .ll.data-v-1cf249b4 {
+  position: absolute;
+  bottom: -20rpx;
+  width: 95%;
+  border: 1px solid #DCDFE6;
+  background-color: #DCDFE6;
+  margin-left: 15rpx;
+  opacity: 0.5;
+}
+.v1 .cnxhe .cnxhev1.data-v-1cf249b4 {
+  margin-top: 40rpx;
+  margin-left: 30rpx;
+}
+.v1 .cnxhe .cnxhev1 .bjys.data-v-1cf249b4 {
+  width: 120rpx;
+  height: 20rpx;
+  background-color: #0000FF;
+  position: absolute;
+  left: 285rpx;
+  bottom: 0rpx;
+  opacity: 0.5;
+}
+.v1 .cnxhe .cnxhev1 .cnxhev1fx.data-v-1cf249b4 {
+  position: absolute;
+  right: 30rpx;
+  bottom: 0rpx;
+  font-size: 20rpx;
+}
+.v1 .cnxhe .cnxhev1 .cnxhev1t1.data-v-1cf249b4 {
+  position: absolute;
+  left: 280rpx;
+  bottom: 0rpx;
+}
+.v1 .cnxhe .cnxhev1 image.data-v-1cf249b4 {
+  width: 250rpx;
+  height: 140rpx;
+  float: left;
+  -webkit-border-radius: 10rpx;
+          border-radius: 10rpx;
+}
+.v1 .cnxhe .cnxhev1 text.data-v-1cf249b4 {
+  margin-left: 4rpx;
+  font-weight: 100;
+}
+.v1 .cnxhe .cnxhev1 .v5.data-v-1cf249b4 {
+  clear: both;
+}
+.v1 .dd.data-v-1cf249b4 {
+  position: absolute;
+  top: 770rpx;
+  left: 0rpx;
+}
+.v1 .dd wz1.data-v-1cf249b4 {
+  margin-left: 100rpx;
+}
+.v1 .dd image.data-v-1cf249b4 {
+  position: absolute;
+  bottom: 0rpx;
+  left: 0rpx;
+  width: 50%;
+}
+.v1 .li.data-v-1cf249b4 {
+  position: absolute;
+  top: 750rpx;
+  left: 20rpx;
+  width: 90%;
+  border: 2rpx solid #DCDFE6;
+  background-color: #DCDFE6;
+}
+.v1 .fx.data-v-1cf249b4 {
+  margin-top: 290rpx;
+  margin-left: 560rpx;
+  font-weight: 100;
+}
+.v1 .fx text.data-v-1cf249b4 {
+  font-size: 40rpx;
+  font-weight: 100;
+  margin-left: 4rpx;
+}
+.v1 .v4.data-v-1cf249b4 {
+  position: absolute;
+  top: 550rpx;
+  left: 20rpx;
+  font-size: 20rpx;
+  line-height: 50rpx;
+  text-indent: 2em;
+  width: 95%;
+  font-weight: 100;
+}
+.v1 .v3.data-v-1cf249b4 {
+  position: relative;
+}
+.v1 .v3 image.data-v-1cf249b4 {
+  width: 70rpx;
+  position: absolute;
+  left: 25rpx;
+}
+.v1 .v3 .t1.data-v-1cf249b4 {
+  font-size: 28rpx;
+  font-weight: 100;
+  position: absolute;
+  top: 20rpx;
+  left: 85rpx;
+}
+.v1 .v3 .t2.data-v-1cf249b4 {
+  font-size: 28rpx;
+  font-weight: 100;
+  position: absolute;
+  left: 215rpx;
+  top: 22rpx;
+  color: #BCBEC2;
+}
+.v1 text.data-v-1cf249b4 {
+  font-size: 30rpx;
+  font-weight: 900;
+  margin-left: 30rpx;
+}
+.v1 .v2.data-v-1cf249b4 {
+  width: 100%;
+  height: 400rpx;
+  margin-bottom: 30rpx;
+}
+.v1 .v2 video.data-v-1cf249b4 {
+  width: 100%;
+  height: 100%;
+}
+

@@ -1,0 +1,187 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.Box {
+  margin-top: 10px;
+  -webkit-border-top-left-radius: 10px;
+          border-top-left-radius: 10px;
+  -webkit-border-top-right-radius: 10px;
+          border-top-right-radius: 10px;
+  -webkit-box-shadow: 0 -1px 3px 4px #f4f4f5;
+          box-shadow: 0 -1px 3px 4px #f4f4f5;
+  margin-bottom: 30rpx;
+}
+.Box .v1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+}
+.Box .v1 .li {
+  margin: 30rpx auto;
+  border: 1rpx solid #f4f4f4;
+  width: 90%;
+}
+.Box .v1 .vv {
+  position: relative;
+}
+.Box .v1 .vv .v8 {
+  color: #FFFFFF;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+  position: absolute;
+  right: 56rpx;
+  bottom: 70rpx;
+  font-size: 20rpx;
+  width: 80rpx;
+  height: 30rpx;
+  background-color: #333333;
+  z-index: 1;
+  text-align: center;
+  line-height: 30rpx;
+}
+.Box .v1 .vv .v9 {
+  color: #FFFFFF;
+  -webkit-border-radius: 10rpx;
+          border-radius: 10rpx;
+  position: absolute;
+  right: 56rpx;
+  bottom: 70rpx;
+  font-size: 20rpx;
+  width: 80rpx;
+  height: 30rpx;
+  background-color: #333333;
+  z-index: 1;
+  text-align: center;
+  line-height: 30rpx;
+}
+.Box .v1 .vv .v6 {
+  color: #FFFFFF;
+  -webkit-border-radius: 10rpx;
+          border-radius: 10rpx;
+  position: absolute;
+  right: 56rpx;
+  bottom: 70rpx;
+  font-size: 20rpx;
+  width: 80rpx;
+  height: 40rpx;
+  background-color: #333333;
+  z-index: 1;
+}
+.Box .v1 .v3 {
+  margin-top: 40rpx;
+}
+.Box .v1 .v3 .v4 {
+  width: 100%;
+  position: relative;
+}
+.Box .v1 .v3 .v4 .ys {
+  position: absolute;
+  right: 320rpx;
+  bottom: 0px;
+  height: 20rpx;
+  width: 120rpx;
+  background-color: #007AFF;
+  opacity: 0.5;
+}
+.Box .v1 .v3 .v4 .yzz {
+  position: absolute;
+  right: 320rpx;
+  bottom: 0px;
+  font-weight: 900;
+}
+.Box .v1 .v3 .v4 .ttt1 {
+  position: absolute;
+  right: 30rpx;
+  bottom: 0px;
+  font-size: 12px;
+  color: #DCDFE6;
+}
+.Box .v1 .v3 .v4 .ttt1 .fx {
+  font-weight: 900;
+  color: #3B4144;
+  font-size: 11px;
+}
+.Box .v1 .v3 .v4 .v5 {
+  clear: both;
+}
+.Box .v1 .v3 .v4 image {
+  width: 250rpx;
+  float: left;
+}
+.Box .v1 .v3 .v4 text {
+  font-weight: 100;
+  margin-left: 2px;
+}
+.Box .v1 text {
+  font-size: 30rpx;
+  margin-left: 34rpx;
+  font-weight: 900;
+}
+.Box .v1 image {
+  -webkit-border-radius: 10rpx;
+          border-radius: 10rpx;
+  width: 92%;
+  margin-left: 34rpx;
+  margin-top: 6rpx;
+}
+.Box .v1 .v2 text {
+  font-size: 30rpx;
+  font-weight: 100;
+}
+.Box .v1 .v2 .xz {
+  font-weight: 900;
+  margin-left: 40rpx;
+  position: relative;
+  z-index: 1;
+}
+.Box .v1 .v2 .xz .yzsh {
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  height: 20rpx;
+  width: 120rpx;
+  background-color: #007AFF;
+  opacity: 0.5;
+}
+.Box .v1 .v2 .tt1 {
+  position: absolute;
+  left: 260rpx;
+  margin-top: -40rpx;
+  font-weight: 100;
+}
+.Box .v1 .v2 .tt1 .fxgn {
+  margin-left: 240rpx;
+  margin-top: -43rpx;
+}
+.Box .v1 .v2 .t1 {
+  margin-left: 260rpx;
+  font-weight: 100;
+}
+

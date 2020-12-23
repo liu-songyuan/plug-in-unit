@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "欢迎来到登录页面",
+  "navigationBarBackgroundColor": "#fff",
+  "usingComponents": {
+    "uni-icon": "/components/uni-icons/uni-icons"
+  }
+}

@@ -1,0 +1,260 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.v1 .fenxiang {
+  margin-top: 10rpx;
+  margin-left: 600rpx;
+}
+.v1 .wb {
+  font-size: 25px;
+  font-weight: 700;
+  margin-left: 30rpx;
+}
+.v1 .v4 {
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+  font-weight: 700;
+  line-height: 70rpx;
+}
+.v1 .v2 {
+  width: 100%;
+  height: 400rpx;
+  margin-bottom: 30rpx;
+}
+.v1 .v2 video {
+  width: 100%;
+  height: 100%;
+}
+.v1 .v3 {
+  position: relative;
+}
+.v1 .v3 image {
+  width: 50rpx;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  margin-left: 1em;
+}
+.v1 .v3 .t1 {
+  font-size: 16px;
+  font-weight: 700;
+  position: absolute;
+  top: 10rpx;
+  left: 90rpx;
+}
+.v1 .v3 .t2 {
+  font-size: 16px;
+  font-weight: 100;
+  position: absolute;
+  left: 245rpx;
+  top: 14rpx;
+  color: #BCBEC2;
+}
+.xihuan {
+  border-top: 10px solid #DCDFE6;
+  font-weight: 700;
+  margin-top: 50rpx;
+  padding: 30rpx 30rpx;
+}
+.fenxiang {
+  margin-top: 50rpx;
+  margin-left: 600rpx;
+}
+.zan {
+  margin-top: -55rpx;
+  margin-left: 50rpx;
+}
+.Box {
+  font-size: 30rpx;
+  color: #353b48;
+  width: 100%;
+  height: auto;
+  margin-top: 20rpx;
+  -webkit-border-top-left-radius: 20rpx;
+          border-top-left-radius: 20rpx;
+  -webkit-border-top-right-radius: 20rpx;
+          border-top-right-radius: 20rpx;
+  -webkit-box-shadow: 0 -2rpx 6rpx 8rpx #f4f4f5;
+          box-shadow: 0 -2rpx 6rpx 8rpx #f4f4f5;
+  padding-top: 12rpx;
+}
+.Box .box {
+  width: auto;
+  margin-top: 20rpx;
+  margin-left: 24rpx;
+  margin-right: 24rpx;
+}
+.Box .box .videos {
+  padding: 0;
+}
+.Box .box .videos .imgbox {
+  position: relative;
+  margin-top: 16rpx;
+  width: 100%;
+  position: relative;
+}
+.Box .box .videos .imgbox .videos_img {
+  -webkit-border-radius: 10rpx;
+          border-radius: 10rpx;
+  width: 100%;
+}
+.Box .box .videos .imgbox .videos_length {
+  font-size: 18rpx;
+  width: 70rpx;
+  background-color: rgba(45, 52, 54, 0.6);
+  text-align: center;
+  color: #ffffff;
+  -webkit-border-radius: 14rpx;
+          border-radius: 14rpx;
+  position: absolute;
+  right: 8rpx;
+  bottom: 18rpx;
+}
+.Box .box .videos .channel {
+  height: 60rpx;
+  line-height: 60rpx;
+  padding-bottom: 14rpx;
+  border-bottom: 2rpx solid #ecf0f1;
+}
+.Box .box .videos .channel .author {
+  float: left;
+  font-size: 24rpx;
+  font-weight: bolder;
+  position: relative;
+}
+.Box .box .videos .channel .author::after {
+  content: '';
+  background-color: #74b9ff;
+  width: 97rpx;
+  height: 8rpx;
+  position: absolute;
+  left: 0rpx;
+  top: 44rpx;
+}
+.Box .box .videos .channel .interact {
+  float: right;
+}
+.Box .box .videos .channel .interact .zan {
+  display: inline-block;
+  color: #a4b0be;
+  font-size: 28rpx;
+}
+.Box .box .videos .channel .interact .zan .num1 {
+  margin-left: 8rpx;
+  margin-right: 8rpx;
+}
+.Box .box .videos .channel .interact .zan .num2 {
+  margin-left: 8rpx;
+}
+.Box .box .videos .channel .interact .share {
+  display: inline-block;
+  margin-left: 10rpx;
+  font-size: 28rpx;
+  font-weight: bold;
+  color: #747d8c;
+}
+.Box .box2 {
+  width: auto;
+  margin-left: 24rpx;
+  margin-right: 24rpx;
+}
+.Box .box2 .box2_item {
+  height: auto;
+  padding-top: 24rpx;
+  padding-bottom: 24rpx;
+  position: relative;
+  border-bottom: 2rpx solid #ecf0f1;
+}
+.Box .box2 .box2_item .item-content {
+  height: 100%;
+}
+.Box .box2 .box2_item .item-content .img {
+  display: inline-block;
+  width: 32.76%;
+}
+.Box .box2 .box2_item .item-content .img image {
+  width: 100%;
+  -webkit-border-radius: 12rpx;
+          border-radius: 12rpx;
+}
+.Box .box2 .box2_item .item-content .right {
+  display: inline-block;
+  width: 65.52%;
+  height: 135.32rpx;
+  position: relative;
+  margin-left: 10rpx;
+}
+.Box .box2 .box2_item .item-content .right .title {
+  position: absolute;
+  top: 4rpx;
+  left: 0;
+  width: 100%;
+}
+.Box .box2 .box2_item .item-content .right .channel {
+  position: absolute;
+  bottom: 4rpx;
+  left: 0;
+  width: 100%;
+}
+.Box .box2 .box2_item .item-content .right .channel .author {
+  display: inline-block;
+  float: left;
+  font-size: 24rpx;
+  font-weight: bolder;
+  position: relative;
+}
+.Box .box2 .box2_item .item-content .right .channel .author::after {
+  content: '';
+  background-color: #74b9ff;
+  width: 97rpx;
+  height: 4rpx;
+  position: absolute;
+  left: 0px;
+  top: 30rpx;
+}
+.Box .box2 .box2_item .item-content .right .channel .interact {
+  float: right;
+  margin-top: -6rpx;
+}
+.Box .box2 .box2_item .item-content .right .channel .interact .zan {
+  display: inline-block;
+  color: #a4b0be;
+  font-size: 28rpx;
+}
+.Box .box2 .box2_item .item-content .right .channel .interact .zan .num1 {
+  margin-left: 6rpx;
+  margin-right: 8rpx;
+}
+.Box .box2 .box2_item .item-content .right .channel .interact .zan .num2 {
+  margin-left: 6rpx;
+}
+.Box .box2 .box2_item .item-content .right .channel .interact .share {
+  display: inline-block;
+  margin-left: 10rpx;
+  font-size: 14px;
+  font-weight: bold;
+  color: #747d8c;
+}
+

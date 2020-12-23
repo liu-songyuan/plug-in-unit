@@ -1,0 +1,2 @@
+<view class="Box"><view class="title">服务协议和隐私政策</view><view class="message">尊敬的用户，欢迎您注册成为本应用用户，在注册前请您仔细阅读<text>《用户协议》</text>及<text>《隐私政策》</text>，
+		了解我们对您使用我们APP制定的规则，您个人信息的处理以及申请权限的目的和使用范围。<view class="_br"></view><view class="content">经您确认后，本用户协议和隐私权政策即在您和本应用之间产生法律效力。请您务必在注册之前认真阅读全部服务协议内容，如有任何疑问，可向本应用客服咨询。</view></view><view class="button"><button type="default" data-event-opts="{{[['tap',[['sub1',['$event']]]]]}}" bindtap="__e">我知道了</button><button type="default" data-event-opts="{{[['tap',[['sub2',['$event']]]]]}}" bindtap="__e">暂不使用</button></view></view>

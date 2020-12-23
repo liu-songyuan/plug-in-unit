@@ -1,0 +1,171 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.Box.data-v-5f87f4c4 {
+  font-size: 30rpx;
+  font-weight: 550;
+  color: #353b48;
+  width: 100%;
+  height: auto;
+  margin-top: 20rpx;
+  -webkit-border-top-left-radius: 20rpx;
+          border-top-left-radius: 20rpx;
+  -webkit-border-top-right-radius: 20rpx;
+          border-top-right-radius: 20rpx;
+  -webkit-box-shadow: 0 -2rpx 6rpx 8rpx #f4f4f5;
+          box-shadow: 0 -2rpx 6rpx 8rpx #f4f4f5;
+  padding-top: 12rpx;
+  background-color: #fff;
+}
+.Box .a.data-v-5f87f4c4 {
+  border-bottom: 3rpx solid #989f99;
+  padding-top: 2%;
+}
+.Box .a .top.data-v-5f87f4c4 {
+  margin-left: 4%;
+  font-size: 35rpx;
+  font-weight: 540;
+  background: -webkit-gradient(linear, left bottom, left top, from(#2854f0), color-stop(20%, #fff), to(#fff));
+  background: -webkit-linear-gradient(bottom, #2854f0 0%, #fff 20%, #fff 100%);
+  background: linear-gradient(0deg, #2854f0 0%, #fff 20%, #fff 100%);
+}
+.Box .a .im.data-v-5f87f4c4 {
+  width: 94%;
+  margin: 15rpx 23rpx 0;
+  -webkit-border-radius: 20rpx;
+          border-radius: 20rpx;
+}
+.Box .a .atim.data-v-5f87f4c4 {
+  text-align: center;
+  width: 13%;
+  margin: -55rpx 50rpx 0;
+  padding: 0 0.5% 0;
+  -webkit-border-radius: 50px;
+          border-radius: 50px;
+  font-size: 25rpx;
+  font-weight: 400;
+  line-height: 40rpx;
+  color: #FFFFFF;
+  background-color: #64646c;
+  float: right;
+}
+.Box .a .bto.data-v-5f87f4c4 {
+  text-align: right;
+  padding: 0.5% 2% 2% 0;
+}
+.Box .a .bto .btoa.data-v-5f87f4c4 {
+  font-size: 28rpx;
+  font-weight: 700;
+  color: #000007;
+  margin-left: 3%;
+  float: left;
+  background: -webkit-gradient(linear, left bottom, left top, from(#0055ff), color-stop(20%, #fff), to(#fff));
+  background: -webkit-linear-gradient(bottom, #0055ff 0%, #fff 20%, #fff 100%);
+  background: linear-gradient(0deg, #0055ff 0%, #fff 20%, #fff 100%);
+}
+.Box .a .bto text.data-v-5f87f4c4 {
+  opacity: 0.8;
+  font-size: 24rpx;
+  color: #736c79;
+  font-weight: 650;
+  padding-right: 2%;
+}
+.Box .a .bto .fen.data-v-5f87f4c4 {
+  font-size: 27rpx;
+  color: #060607;
+}
+.Box .ab.data-v-5f87f4c4 {
+  padding: 2% 0.8%;
+  border-bottom: 1rpx solid #a7afa8;
+  background-color: #eef5f5;
+}
+.Box .ab .aba.data-v-5f87f4c4 {
+  margin-left: 0.7%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.Box .ab .aba .abim.data-v-5f87f4c4 {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+}
+.Box .ab .aba .abim image.data-v-5f87f4c4 {
+  width: 97%;
+  -webkit-border-radius: 20rpx;
+          border-radius: 20rpx;
+  float: left;
+}
+.Box .ab .aba .abr.data-v-5f87f4c4 {
+  -webkit-box-flex: 2;
+  -webkit-flex: 2;
+          flex: 2;
+  margin-left: 0.7%;
+  float: left;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+}
+.Box .ab .aba .abr .abrt.data-v-5f87f4c4 {
+  -webkit-box-flex: 3;
+  -webkit-flex: 3;
+          flex: 3;
+  font-size: 38rpx;
+  font-weight: 600;
+  color: #5b6356;
+  margin: 0 0 10%;
+}
+.Box .ab .aba .abr .abto.data-v-5f87f4c4 {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  text-align: right;
+  margin: 0 2% 0 0;
+}
+.Box .ab .aba .abr .abto .abtot.data-v-5f87f4c4 {
+  font-size: 19rpx;
+  font-weight: 600;
+  float: left;
+  background: -webkit-gradient(linear, left bottom, left top, from(#0055ff), color-stop(20%, #eef5f5), to(#eef5f5));
+  background: -webkit-linear-gradient(bottom, #0055ff 0%, #eef5f5 20%, #eef5f5 100%);
+  background: linear-gradient(0deg, #0055ff 0%, #eef5f5 20%, #eef5f5 100%);
+}
+.Box .ab .aba .abr .abto .abtor.data-v-5f87f4c4 {
+  font-size: 19rpx;
+  margin: 0 0 1%;
+}
+.Box .ab .aba .abr .abto .abtor view.data-v-5f87f4c4 {
+  font-weight: 550;
+  opacity: 0.7;
+  font-size: 26rpx;
+  display: inline-block;
+  padding-right: 2.5%;
+}
+

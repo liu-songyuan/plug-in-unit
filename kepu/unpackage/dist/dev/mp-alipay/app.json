@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/center/center",
+    "pages/QuShe-login/QuShe-login",
+    "pages/register/register",
+    "pages/shoucang/shoucang",
+    "pages/sorry/sorry",
+    "pages/ArticleDetail-Game/ArticleDetail-Game",
+    "pages/VideoDetail-Game/VideoDetail-Game",
+    "pages/VideoDetail-FamilyLife/VideoDetail-FamilyLife",
+    "pages/ArticleDetail-FamilyLife/ArticleDetail-FamilyLife",
+    "pages/ArticleDetail-Technology/ArticleDetail-Technology",
+    "pages/VideoDetail-Technology/VideoDetail-Technology",
+    "pages/ArticleDetail-Beauty/ArticleDetail-Beauty",
+    "pages/VideoDetail-Beauty/VideoDetail-Beauty",
+    "pages/ArticleDetail-Animal/ArticleDetail-Animal",
+    "pages/VideoDetail-Animal/VideoDetail-Animal",
+    "pages/ArticleDetail-Life/ArticleDetail-Life",
+    "pages/VideoDetail-Life/VideoDetail-Life",
+    "pages/ArticleDetail-Interset/ArticleDetail-Interset",
+    "pages/VideoDetail-Interset/VideoDetail-Interset",
+    "pages/feedback/feedback",
+    "pages/privacy/privacy",
+    "pages/about/about"
+  ],
+  "subPackages": [],
+  "window": {
+    "defaultTitle": "科普小站",
+    "titleBarColor": "#74b9ff"
+  },
+  "tabBar": {
+    "items": [
+      {
+        "pagePath": "pages/index/index",
+        "name": "首页",
+        "icon": "static/home.png",
+        "activeIcon": "static/homea.png"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "name": "我的",
+        "icon": "static/self.png",
+        "activeIcon": "static/selfa.png"
+      }
+    ]
+  },
+  "usingComponents": {
+    "uni-icons": "/components/uni-icons/uni-icons"
+  }
+}

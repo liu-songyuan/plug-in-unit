@@ -1,0 +1,1 @@
+page{background-color:#f1f1f1}.Box .uni-textarea{margin-top:20rpx;padding:40rpx 0 0 70rpx;background-color:#fff}.Box .picture{margin:60rpx 0 0 60rpx;width:200rpx;height:180rpx;border:1px dashed #a4b0be;padding:20rpx 0 0 0;text-align:center}.Box .picture .tianjia{font-size:30rpx;color:#a4b0be}.Box .button{margin-top:60rpx;padding:60rpx}
